@@ -1,0 +1,29 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  background-color: darkgray;
+  font-family: Helvetica, sans-serif;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: center;
+}
+
+.materialsTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  min-width: 600px;
+  padding: 20px 50px;
+}
+
+.oneIngredientBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: auto;
+}
