@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: darkgray;
+  font-family: Helvetica, sans-serif;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  border: 5px darkred solid;
+}
+
+
+.flexTypeBox {
+  display: flex;
+  flex-direction: column;
+  border: 2px darkslategray solid;
+  width: 400px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.IngredientBox {
+  display: flex;
+  flex-direction: column;
+  border: 2px darkgoldenrod solid;
+  width: 70px;
+  height: 100px;
+}

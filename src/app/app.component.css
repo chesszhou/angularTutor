@@ -1,9 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
-body {
-  background-color: darkgray;
-  font-family: Helvetica, sans-serif;
-}
+
 
 .titleBox {
   display: flex;
